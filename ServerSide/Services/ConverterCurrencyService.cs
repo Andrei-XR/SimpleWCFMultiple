@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ServerSide.Services
 {
-    public class ConverterCurrencyService : BaseService, IConverterCurrency
+    public class ConverterCurrencyService : BaseService, IConverterCurrencyService
     {
         public decimal DollarToReal(int dollar)
         {

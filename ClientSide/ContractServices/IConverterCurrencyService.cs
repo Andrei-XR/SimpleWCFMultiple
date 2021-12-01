@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ServiceModel;
 
-namespace ServerSide.Contracts
+namespace ClientSide.ContractServices
 {
     [ServiceContract]
-    public interface IConverterCurrency
+    public interface IConverterCurrencyService
     {
         [OperationContract]
         decimal RealToDollar(int real);

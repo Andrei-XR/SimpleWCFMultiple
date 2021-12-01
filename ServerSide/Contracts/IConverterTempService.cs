@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace ServerSide.Contracts
 {
     [ServiceContract]
-    public interface IConverterTemp
+    public interface IConverterTempService
     {
         [OperationContract]
         decimal CelsiusToFahrenheit(int celius);

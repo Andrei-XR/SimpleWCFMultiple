@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ServerSide.Services
 {
-    public class ConverterTempService : BaseService, IConverterTemp
+    public class ConverterTempService : BaseService, IConverterTempService
     {
         public decimal CelsiusToFahrenheit(int celsius)
         {
